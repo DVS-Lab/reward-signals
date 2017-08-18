@@ -1,0 +1,11 @@
+Screen('Flip',screens.subjectW);
+msg = 'You cannot choose this one!';
+Screen('TextStyle', screens.subjectW, 0);
+Screen('TextSize', screens.subjectW, 40);
+DrawFormattedText(screens.subjectW, msg, 'center', 'center',[255, 0, 0]);
+Screen('Flip', screens.subjectW);
+press = 1;
+choice = 0;
+deckchoice = 0;
+correct = nan;
+WaitSecs(.5);
